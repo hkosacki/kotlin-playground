@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private val Tag: String = MainActivity::class.simpleName!!
 
-    lateinit var tts: TextToSpeech
+    private lateinit var tts: TextToSpeech
 
     private val MY_DATA_CHECK_CODE = 1005
 
@@ -46,8 +46,7 @@ class MainActivity : AppCompatActivity() {
                 // success, create the TTS instance
                 tts = TextToSpeech(this, {
                     Log.i(Tag, "TTS initialized successfully!")
-                    Log.i(Tag, "We won't set up the language")
-//                    tts.language = Locale("PL")
+                    Log.i(Tag, "We won't set up the language. Let's use the default one")
                 })
             } else {
                 // missing data, install it

@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Zegarynka</string>
-    <string name="action_settings">Ustawienia</string>
+    <string name="app_name">Talking-clock</string>
+    <string name="action_settings">Settings</string>
 
     <!-- buttons -->
-    <string name="whats_the_time">Która godzina?</string>
+    <string name="whats_the_time">What\'s the time?</string>
 
     <!-- tts -->
-    <string name="its_o_clock" formatted="false">Jest godzina %s</string>
+    <string name="its_o_clock" formatted="false">It\'s %s o\'clock</string>
 
 </resources>
