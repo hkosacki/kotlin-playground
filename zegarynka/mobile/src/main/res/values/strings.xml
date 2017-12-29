@@ -4,6 +4,8 @@
 
     <!-- buttons -->
     <string name="whats_the_time">What\'s the time?</string>
+    <string name="start_service">Start the service!</string>
+    <string name="stop_service">Stop the service!</string>
 
     <!-- tts -->
     <string name="its_o_clock" formatted="false">It\'s %s o\'clock</string>
